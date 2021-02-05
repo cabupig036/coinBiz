@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    
     loadData();
 });
 
@@ -29,13 +30,13 @@ function getDataToTable(data) {
         $.each(element, (index, item) => {
             items.push("<td>" + item + "</td>");
         });
-        items.push('<td><i class="fas fa-edit" onclick="UpdateUser('+element.id+')"></i>/<i class="fas fa-user-minus" onclick="DeleteUser('+element.id+')"></i></td>')
+        items.push('<td><a href="#"onclick="UpdateUser('+element.id+')"><i class="fas fa-edit" ></i></a>/<a href="#" onclick="DeleteUser('+element.id+')"><i class="fas fa-user-minus" ></i></a></td>')
         $("<tr/>", {
             html: items.join("")
         }).appendTo(table);
     })
-
     $("#example").DataTable();
+
 }
 
 function failure(error) {

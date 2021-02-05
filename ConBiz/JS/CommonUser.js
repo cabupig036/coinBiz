@@ -1,9 +1,8 @@
 function UpdateUser(userId){
 
 }
+var deleteBtn = document.getElementById('DeleteBtn');
 
-function DeleteUser(userId){
-
+function DeleteUser(e){
+    console.log(e.target);
 }
-
-    
