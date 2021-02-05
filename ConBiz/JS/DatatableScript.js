@@ -3,10 +3,9 @@ $(document).ready(function() {
 });
 
 function loadData() {
-
-    const urlSource = "../Data/Users.json";
+    
     $.ajax({
-        url: urlSource,
+        url: "Users.json",
         type: "Get",
         dataType: "json",
         headers: {
