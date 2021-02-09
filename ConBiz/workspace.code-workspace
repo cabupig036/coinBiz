@@ -1,0 +1,28 @@
+{
+    "folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "css"
+		},
+		{
+			"path": "Data"
+		},
+		{
+			"path": "img"
+		},
+		{
+			"path": "jquery"
+		},
+		{
+			"path": "JS"
+		},
+		{
+			"path": "node_modules"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "ConBiz"
+    }
+}
